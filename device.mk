@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     libhwc2on1apadapter \
     libqdMetaData.system \
     libtinyxml
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -152,10 +153,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(LOCAL_PATH)/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
-
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # Wifi
 PRODUCT_PACKAGES += \
