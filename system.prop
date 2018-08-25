@@ -256,4 +256,4 @@ qemu.hw.mainkeys=0
 ro.audio.flinger_standbytime_ms=300
 
 #Vendor security patch
-ro.lineage.build.vendor_security_patch=2018-08-16
+ro.lineage.build.vendor_security_patch=2018-08-23
