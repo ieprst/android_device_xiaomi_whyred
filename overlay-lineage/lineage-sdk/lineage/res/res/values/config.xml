@@ -15,6 +15,12 @@
      limitations under the License.
 -->
 <resources>
+
+    <!-- Default value for proximity check on screen wake
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 
@@ -41,4 +47,9 @@
     <integer name="config_deviceHardwareKeys">64</integer>
     <integer name="config_deviceHardwareWakeKeys">64</integer>
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <!-- Timeout in MS for how long you have to long-press the back key to
+         kill the foreground app. -->
+    <integer name="config_backKillTimeout">1000</integer>
+
 </resources>

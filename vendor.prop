@@ -76,6 +76,8 @@ persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
 persist.radio.VT_HYBRID_ENABLE=1
+ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
+ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
 
 # the level of data wiping under PRESET mode
 persist.regional.wipedata.level=all
